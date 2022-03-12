@@ -1,0 +1,143 @@
+body{
+    margin-top: 20px;
+}
+
+.users{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    border: 3px transparent;
+    border-radius: 5%;
+    background-color: rgba(35, 87, 87, 0.089) ;
+    width: 230px;
+    padding: 10px;
+    height: 640px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.rooms{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    overflow: auto;
+    border: none;
+    width: 210px;
+    border-radius: 5%;
+    background-color: rgba(35, 87, 87, 0.089) ;
+    height: 640px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+#room {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#user {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+
+.card {
+    float: left;
+    overflow: auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.card .card-header {
+    background: #17202b;
+    border: 0;
+    font-size: 1rem;
+    padding: .65rem 1rem;
+    color: aliceblue;
+    position: relative;
+    font-weight: 600;
+    border-radius: 0.3rem 0.3rem 0 0;
+    height: 20px;
+}
+
+.container {
+    font-family: 'Motserrat', sans-serif;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+      float: left;
+      max-width: 60px;
+      width: 100%;
+      margin-right: 20px;
+      border-radius: 50%;
+}
+
+.card-body {
+    overflow: auto;
+    border: none;
+    height: 600px;
+    padding: 10px;
+}
+
+.chat-message h5{
+    margin: 5px 0px 5px 0px;
+    font-weight: 600;
+    line-height: 100%;
+    font-size: .9rem;
+}
+
+.chat-message p {
+    line-height: 18px;
+    margin: 10;
+    padding: 0;
+}
+
+#form {
+    background-color: #e0e0e0;
+
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#input {
+        height: 40px;
+        font-size: 16px;
+        min-width: 90%;
+        padding-left: 15px;
+        background-color: #fff;
+        border-radius: 15px;
+        border: none;
+}
+
+.button {
+    width: 10%;
+    height: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
